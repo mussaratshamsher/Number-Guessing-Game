@@ -10,7 +10,7 @@ const answers = await inquirer.prompt([
     {
         name: "userGuessedNumber",
         type: "number",
-        message: chalk.green('Please guess a number 1 to 9'),
+        message: chalk.green('Please guess a number from 1 to 9'),
     }
 ]);
 if (answers.userGuessedNumber === randomNumber) {
